@@ -1,26 +1,73 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+
+/*
+Social Media Dashboard
+Total Followers: 23,004
+
+Dark Mode
+
+@nathanf
+1987
+Followers
+12 Today
+
+@nathanf
+1044
+Followers
+99 Today
+
+@realnathanf
+11k
+Followers
+1099 Today
+
+Nathan F.
+8239
+Subscribers
+144 Today
+
+Overview - Today
+
+Page Views
+87
+3%
+
+Likes
+52
+2%
+
+Likes
+5462
+2257%
+
+Profile Views
+52k
+1375%
+
+Retweets
+117
+303%
+
+Likes
+507
+553%
+
+Likes
+107
+19%
+
+Total Views
+1407
+12%
+*/
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			
+		</div>
+	);
 }
 
 export default App;
