@@ -1,17 +1,17 @@
 import React from 'react'
 import './css/Header.css'
+import Switch from './Switch'
 
-/*
-Social Media Dashboard
-Total Followers: 23,004
+const Header = ({ switchActivated }) => {
 
-Dark Mode
-*/
-
-const Header = () => {
 	return (
 		<div className="header">
-			
+			<div className="text__container">
+				<h1>Social Media Dashboard</h1>
+				<p>Total Followers: 23,004</p>
+			</div>
+
+			<Switch activated={switchActivated} label="Dark Mode" />
 		</div>
 	)
 }

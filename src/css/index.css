@@ -33,9 +33,21 @@
 * {
 	margin: 0;
 	padding: 0;
+	transition: background 0.5s linear;
 }
 
 body {
 	font-family: 'Inter', sans-serif;
 	font-size: 14px;
+}
+
+#root {
+	display: flex;
+	justify-content: center;
+	background-color: var(--bg-dark);
+	min-height: 100vh;
+}
+
+.light#root {
+	background-color: var(--bg-light);
 }

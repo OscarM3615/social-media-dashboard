@@ -1,9 +1,19 @@
 .attribution {
+	padding: 5px;
 	font-size: 11px;
 	text-align: center;
+	color: white;
 }
 
 .attribution a {
-	color: hsl(228, 45%, 44%);
 	text-decoration: none;
+	color: hsl(228, 35%, 66%);
+}
+
+.light .attribution {
+	color: black;
+}
+
+.light .attribution a {
+	color: hsl(228, 45%, 44%);
 }
