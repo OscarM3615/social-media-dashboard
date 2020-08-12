@@ -3,6 +3,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	color: var(--text-dark);
+	margin-bottom: 40px;
 }
 
 .light .header {
@@ -29,7 +30,7 @@
 	color: var(--blue-text-light);
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
 	.header {
 		flex-direction: column;
 	}

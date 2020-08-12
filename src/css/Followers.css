@@ -99,7 +99,7 @@
 	height: 4px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
 	.followers__pane {
 		width: 100%;
 		margin-bottom: 20px;
