@@ -1,7 +1,6 @@
 .switchContainer {
 	display: flex;
 	align-items: center;
-	margin-top: 15px;
 }
 
 .switchContainer > label {
@@ -52,6 +51,7 @@
 
 @media screen and (max-width: 400px) {
 	.switchContainer {
+		margin-top: 15px;
 		justify-content: space-between;
 	}
 }

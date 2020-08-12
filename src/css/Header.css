@@ -13,11 +13,11 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: left;
-	padding-bottom: 20px;
 }
 
 .text__container > h1 {
 	font-size: 24px;
+	margin-bottom: 5px;
 }
 
 .text__container > p {
@@ -35,6 +35,7 @@
 	}
 
 	.text__container {
+		padding-bottom: 20px;
 		border-bottom: solid 1px var(--blue-text-dark);
 	}
 
