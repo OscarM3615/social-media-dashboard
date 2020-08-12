@@ -1,32 +1,14 @@
 import React from 'react'
 import './css/FollowersList.css'
-
-/*
-@nathanf
-1987
-Followers
-12 Today
-
-@nathanf
-1044
-Followers
-99 Today
-
-@realnathanf
-11k
-Followers
-1099 Today
-
-Nathan F.
-8239
-Subscribers
-144 Today
-*/
+import Followers from './Followers'
 
 const FollowersList = () => {
 	return (
 		<div className="followerslist">
-			
+			<Followers social="facebook" account="@nathanf" followers="1987" newFollowers="12" direction="up" />
+			<Followers social="twitter" account="@nathanf" followers="1044" newFollowers="99" direction="up" />
+			<Followers social="instagram" account="@realnathanf" followers="11k" newFollowers="1099" direction="up" />
+			<Followers social="youtube" account="Nathan F." followers="8239" newFollowers="144" direction="down" />
 		</div>
 	)
 }

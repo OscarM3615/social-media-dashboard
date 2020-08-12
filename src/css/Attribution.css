@@ -7,7 +7,7 @@
 
 .attribution a {
 	text-decoration: none;
-	color: hsl(228, 35%, 66%);
+	color: var(--blue-text-dark);
 }
 
 .light .attribution {
@@ -15,5 +15,5 @@
 }
 
 .light .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: var(--blue-text-light);
 }
