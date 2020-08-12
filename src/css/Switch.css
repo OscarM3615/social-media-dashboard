@@ -28,6 +28,10 @@
 	cursor: pointer;
 }
 
+.switch:checked {
+	background: var(--toggle-light);
+}
+
 .switch:before {
 	content: '';
 	position: absolute;
