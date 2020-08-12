@@ -15,7 +15,7 @@ const App = () => {
 		<div className="app">
 			<Header switchActivated={lightTheme} />
 			<FollowersList />
-			<Overview />
+			<Overview title="Overview - Today" />
 			<Attribution name="Óscar Miranda" github="oscarmiranda3615" />
 		</div>
 	)

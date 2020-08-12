@@ -1,0 +1,75 @@
+.socialtracker {
+	width: 23%;
+	margin-bottom: 20px;
+	background-color: var(--card-bg-dark);
+	color: var(--blue-text-dark);
+	border-radius: 3px;
+	transition: all 0.25s linear;
+	cursor: pointer;
+}
+
+.light .socialtracker {
+	background-color: var(--card-bg-light);
+	color: var(--blue-text-light);
+}
+
+.socialtracker:hover {
+	filter: brightness(125%);
+}
+
+.light .socialtracker:hover {
+	filter: brightness(90%);
+}
+
+.tracker__header,.tracker__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px;
+	font-weight: var(--bold);
+}
+
+.tracker__content {
+	align-items: flex-end;
+}
+
+.tracker__content > h1 {
+	color: var(--text-dark);
+}
+
+.light .tracker__content > h1 {
+	color: var(--text-light);
+}
+
+.tracker__progress {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	font-weight: var(--bold);
+	margin-bottom: 4px;
+}
+
+.tracker__progress > img {
+	margin-right: 5px;
+	height: 4px;
+}
+
+.tracker__progress.up > p {
+	color: var(--lime-green);
+}
+
+.tracker__progress.down > p {
+	color: var(--bright-red);
+}
+
+@media screen and (max-width: 600px) {
+	.socialtracker {
+		width: 100%;
+	}
+
+	.socialtracker > div {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

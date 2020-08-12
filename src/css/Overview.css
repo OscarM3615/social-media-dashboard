@@ -1,0 +1,19 @@
+.overview {
+	margin-top: 20px;
+	color: var(--text-dark);
+}
+
+.overview > .trackers__container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.overview > h1 {
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+.light .overview {
+	color: var(--text-light);
+}
